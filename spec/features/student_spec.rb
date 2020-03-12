@@ -47,7 +47,6 @@ describe 'form page' do
 end
 
 describe 'Show page' do
-  render_views
   before do
     @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
   end
