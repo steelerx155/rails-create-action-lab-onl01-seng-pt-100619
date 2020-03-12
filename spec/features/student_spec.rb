@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe 'Route to view' do
+  render_views
   it 'has an index page' do
     visit students_path
     expect(page.status_code).to eq(200)
